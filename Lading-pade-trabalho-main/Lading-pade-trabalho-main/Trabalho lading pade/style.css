@@ -13,33 +13,48 @@ body {
 }
 
 .cabecalho{
-    display: flex;
+    display:inline-flex; 
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    padding: 24px;
-}
-
+    padding-right: 100px;
+    height: 120px;
+    }
+*
 .cabecalho-imagem {
     height: 72px;
+    margin-left: 20px;
 }
 
 .cabecalho-menu {
     display: flex;
+    flex-direction: row;
     gap: 32px;
+    margin-left: 1400px;
+    
 }
 
 .cabecalho-menu-item {
     font-family: 'Sarala' , sans-serif;
     color: #fff2e7;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
 
 }
 
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #fff2e7;
+    padding-left: 20px;
+}
+
+header img{
+    padding-left: 20px;
+    border-radius: 15px;
+    width: 130px;
+    height: 100px;
+    justify-content: left;
+   
 }
 
 .conteudo-principal {
@@ -58,10 +73,16 @@ body {
 
 .conteudo-principal-escrito-titulo {
     display: flex;
-    font-family: 'Righteous' , cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
     font-size: 64px;
     color: #FFF2E7;
+
+}
+.subtitulo{
+    font-size: 30px;
+    color: #FFF2E7;
+    font-family: 'sarala', sans-serif;
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -70,6 +91,9 @@ body {
     font-weight: 400;
     font-size: 40px;
     color: #ECD6C4;
+}
+.atençao{
+    font-size: 45px;
 }
 
 form{
@@ -93,6 +117,7 @@ font-size: 20px;
     font-family: 'Sarala' , sans-serif;
     font-weight: 400;
     font-size: 20px;
+    gap: 20px;
 
 }
 
@@ -125,11 +150,21 @@ font-size: 20px;
     font-family: 'Sarala' , sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #ECD6C4;
+    color: #ECD6C4;"
+    </aside>
+    <footer class="rodape">
 }
 label{
     font-size: 20px;
     font-family: 'sarala';
     color: #FFF2E7;
     border-color: lightblue;
+}
+aside{
+    display: flex;
+    align-items: center;
+    padding-right: 2px;
+    height: 200px;
+    margin-right: 2%;
+    border: 1px solid black;
 }

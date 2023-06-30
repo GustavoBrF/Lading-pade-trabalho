@@ -2,21 +2,21 @@
 
 * {
     margin: 0;
-    /*padding: 0;*/
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #5154fa 16.62%, #530296 85.61%);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 }
 
 .cabecalho{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: space-around;
     padding: 24px;
 }
 
@@ -34,7 +34,6 @@ body {
     color: #fff2e7;
     font-weight: 400;
     font-size: 18px;
-
 }
 
 .conteudo {
@@ -45,19 +44,17 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    margin: 5;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    gap: 32px;;
-    justify-content: flex-start;
+    gap: 32px;
 }
 
 .conteudo-principal-escrito-titulo {
-    display: flex;
     font-family: 'Righteous' , cursive;
     font-weight: 400;
     font-size: 64px;
@@ -65,35 +62,23 @@ body {
 }
 
 .conteudo-principal-escrito-subtitulo {
-    justify-content: flex-start;
     font-family: 'Sarala' , sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 24px;
     color: #ECD6C4;
 }
 
-form{
-font-size: 20px;
-
-}
-.formulario-login{
-    background-color: white;
-    width: 480px;
-    height: 40px;
-    border-radius: 25px;
-}
-
-.botao-login{
-    background-color: rgb(13, 126, 255);
-    width: 100px;
-    height: 40px;
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'Sarala' , sans-serif;
     font-weight: 400;
-    font-size: 20px;
-
+    font-size: 24px;
+    color: #2F2325;
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -115,7 +100,8 @@ font-size: 20px;
 .conteudo-secundario-titulo {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 48px;
-    font-family: 'Righteous';
+    font-family: 'Righteous' , cursive;
+    font-weight: 400;
     font-size: 24px;
     color: #fff2ef;
    margin-bottom: 16px;
@@ -127,9 +113,14 @@ font-size: 20px;
     font-size: 18px;
     color: #ECD6C4;
 }
-label{
-    font-size: 20px;
-    font-family: 'sarala';
-    color: #FFF2E7;
-    border-color: lightblue;
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
 }
